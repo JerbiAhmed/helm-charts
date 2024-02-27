@@ -24,7 +24,7 @@ service:
 ingress:
   enabled: true
   hosts:
-    - host: "todo.192.168.1.203.nip.io"
+    - host: "todo-eu.192.168.1.203.nip.io"
       paths:
         - path: /
           # Ignored if not kubeVersion >= 1.14-0
